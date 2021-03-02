@@ -1,5 +1,6 @@
+import Navbar from '../navbar/navbar.component';
 import Avatar from '../../assest/avatar.svg';
-import './sidear.style.css';
+import './sidebar.style.css';
 
 const Sidebar = () => (
     <div className="sidebar">
@@ -8,6 +9,7 @@ const Sidebar = () => (
             <p>Josh Ojuromi</p>
         </div>
         <div className="page-links"></div>
+        <Navbar />
     </div>
 )
 

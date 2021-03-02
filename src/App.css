@@ -1,3 +1,7 @@
 .app {
   display: flex;
 }
+
+.main {
+  width: 85%;
+}
