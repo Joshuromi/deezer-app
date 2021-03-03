@@ -1,8 +1,9 @@
 .sidebar {
   background-color: #574fd8;
-  width: 280px;
+  width: 15%;
   height: 100vh;
   border-top-left-radius: 10px;
+  position: fixed;
 }
 
 .sidebar-profile {

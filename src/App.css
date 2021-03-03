@@ -1,7 +1,9 @@
 .app {
   display: flex;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main {
-  width: 100%;
+  width: 85%;
+  margin-left: 15%;
 }
