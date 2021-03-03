@@ -1,6 +1,6 @@
 .sidebar {
   background-color: #574fd8;
-  width: 15%;
+  width: 280px;
   height: 100vh;
   border-top-left-radius: 10px;
 }
@@ -17,6 +17,6 @@
 }
 
 .profile-img {
-  width: 35%;
+  width: 30%;
   margin-bottom: -5px;
 }
