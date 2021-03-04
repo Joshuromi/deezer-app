@@ -1,3 +1,4 @@
+import { connect } from "react-redux";
 import MusicLogo from "../../assest/musiclogo.svg";
 import "./trackPlayer.styles.css";
 

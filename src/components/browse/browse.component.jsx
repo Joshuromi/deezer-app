@@ -5,7 +5,7 @@ const Browse = ({ data }) => (
   <div className="browse">
     <div className="browse-row">
       {data.map((item) => (
-        <Track id={item.id} imgUrl={item.cover_medium} title={item.title} />
+        <Track key={item.id} imgUrl={item.cover_medium} title={item.title} />
       ))}
     </div>
   </div>

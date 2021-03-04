@@ -2,7 +2,6 @@ import React from "react";
 import NewReleased from "../../components/new-released/newReleased.component";
 import FeaturedPlaylists from "../../components/featured-playlists/featuredPlaylists.component";
 import Browse from "../../components/browse/browse.component";
-import TrackPlayer from "../../components/track-player/trackPlayer.component";
 import api from "../../services/api";
 import "./discoverPage.css";
 
@@ -51,7 +50,6 @@ class DiscoverPage extends React.Component {
           <span> &#10095;</span>
         </div>
         <Browse data={browse} />
-        <TrackPlayer />
       </div>
     );
   }

@@ -5,7 +5,7 @@ const FeaturedPlaylists = ({ data }) => (
   <div className="playlists">
     <div className="playlist-row">
       {data.map((item) => (
-        <Track id={item.id} imgUrl={item.picture_medium} title={item.title} />
+        <Track key={item.id} imgUrl={item.picture_medium} title={item.title} />
       ))}
     </div>
   </div>
