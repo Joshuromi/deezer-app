@@ -1,6 +1,6 @@
-import "./tracks.styles.css";
+import "./newReleased.styles.css";
 
-const Tracks = ({ data }) => (
+const NewReleased = ({ data }) => (
   <div className="tracks">
     <div className="track-row">
       {data.map((item) => (
@@ -13,4 +13,4 @@ const Tracks = ({ data }) => (
   </div>
 );
 
-export default Tracks;
+export default NewReleased;

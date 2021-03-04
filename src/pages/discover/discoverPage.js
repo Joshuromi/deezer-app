@@ -1,5 +1,6 @@
 import React from "react";
-import Tracks from "../../components/tracks/tracks.component";
+import NewReleased from "../../components/new-released/newReleased.component";
+import FeaturedPlaylists from "../../components/featured-playlists/featuredPlaylists.component";
 import api from "../../services/api";
 import "./discoverPage.css";
 
@@ -31,12 +32,12 @@ class DiscoverPage extends React.Component {
           <p>RELEASED THIS WEEK</p>
           <div className="line"></div>
         </div>
-        <Tracks data={tracks} />
+        <NewReleased data={tracks} />
         <div className="sub-title">
           <p>FEATURED PLAYLIST</p>
           <div className="line"></div>
         </div>
-
+        <FeaturedPlaylists data={playlists} />
         <div className="sub-title">
           <p>BROWSE</p>
           <div className="line"></div>

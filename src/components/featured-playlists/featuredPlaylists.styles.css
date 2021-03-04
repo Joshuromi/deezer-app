@@ -1,0 +1,24 @@
+.playlists {
+  overflow: hidden;
+}
+
+.playlist-row {
+  display: flex;
+  height: 200px;
+  padding: 20px;
+  overflow-x: scroll;
+}
+
+.playlist-row::-webkit-scrollbar {
+  display: none;
+}
+
+.playlist-item {
+  margin-right: 30px;
+  text-align: center;
+}
+
+.playlist-item img {
+  border-radius: 10px;
+  width: 150px;
+}
