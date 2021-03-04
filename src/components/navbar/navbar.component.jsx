@@ -3,33 +3,33 @@ import "./navbar.style.css";
 const Navbar = () => (
   <div className="navbar">
     <div className="tabs">
-      <div>
+      <div className="info">
         <i className="fa fa-headphones" aria-hidden="true"></i>
-        Discover
+        <span>Discover</span>
       </div>
     </div>
     <div className="tabs">
-      <div>
+      <div className="info">
         <i className="fa fa-search" aria-hidden="true"></i>
-        Search
+        <span>Search</span>
       </div>
     </div>
     <div className="tabs">
-      <div>
+      <div className="info">
         <i className="fa fa-heart" aria-hidden="true"></i>
-        Favourite
+        <span>Favourite</span>
       </div>
     </div>
     <div className="tabs">
-      <div>
+      <div className="info">
         <i className="fa fa-play-circle" aria-hidden="true"></i>
-        Playlist
+        <span>Playlist</span>
       </div>
     </div>
     <div className="tabs">
-      <div>
+      <div className="info">
         <i className="fa fa-bars" aria-hidden="true"></i>
-        Charts
+        <span>Charts</span>
       </div>
     </div>
   </div>

@@ -12,11 +12,25 @@
   margin-right: 20px;
 }
 
-.tabs div {
-  width: 120px;
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  width: fit-content;
   margin: auto;
 }
 
 .tabs:hover {
   background: linear-gradient(to right, rgba(255, 255, 255, 0.3), #574fd8);
+}
+
+@media (max-width: 800px) {
+  .info span {
+    display: none;
+  }
+
+  .tabs i {
+    font-size: 25px;
+    margin-right: 0;
+  }
 }

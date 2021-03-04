@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .app {
   display: flex;
   font-family: "Montserrat", sans-serif;

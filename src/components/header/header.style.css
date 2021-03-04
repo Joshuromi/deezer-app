@@ -16,11 +16,11 @@
 
 .header-info {
   color: white;
-  padding-right: 20px;
   line-height: 1;
   text-align: right;
   min-width: 350px;
-  position: relative;
+  position: absolute;
+  right: 20px;
 }
 
 .header-info h1 {

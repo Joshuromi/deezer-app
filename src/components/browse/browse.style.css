@@ -5,7 +5,7 @@
 
 .browse-row {
   display: flex;
-  height: 190px;
+  height: 230px;
   padding: 20px;
   overflow-x: scroll;
 }

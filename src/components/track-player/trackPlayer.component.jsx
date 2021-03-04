@@ -46,12 +46,12 @@ const TrackPlayer = ({ track, updatePlayer }) => {
         <div className="progress-bar"></div>
         <p className="title">{title}</p>
       </div>
-      <div className="options">
+      {/* <div className="options">
         <i className="fa fa-heart" aria-hidden="true"></i>
         <i className="fa fa-random" aria-hidden="true"></i>
         <i className="fa fa-retweet" aria-hidden="true"></i>
         <i className="fa fa-volume-up" aria-hidden="true"></i>
-      </div>
+      </div> */}
     </div>
   );
 };
