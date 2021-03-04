@@ -1,14 +1,14 @@
-.tracks {
+.browse {
   overflow: hidden;
 }
 
-.track-row {
+.browse-row {
   display: flex;
-  height: 200px;
+  height: 210px;
   padding: 20px;
   overflow-x: scroll;
 }
 
-.track-row::-webkit-scrollbar {
+.browse-row::-webkit-scrollbar {
   display: none;
 }

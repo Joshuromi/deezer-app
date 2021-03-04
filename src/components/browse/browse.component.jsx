@@ -1,9 +1,9 @@
 import Track from "../track/track.component";
-import "./newReleased.styles.css";
+import "./browse.style.css";
 
-const NewReleased = ({ data }) => (
-  <div className="tracks">
-    <div className="track-row">
+const Browse = ({ data }) => (
+  <div className="browse">
+    <div className="browse-row">
       {data.map((item) => (
         <Track
           id={item.id}
@@ -15,4 +15,4 @@ const NewReleased = ({ data }) => (
   </div>
 );
 
-export default NewReleased;
+export default Browse;

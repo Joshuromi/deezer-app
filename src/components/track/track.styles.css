@@ -1,0 +1,9 @@
+.track-item {
+  margin-right: 30px;
+  text-align: center;
+}
+
+.track-item img {
+  border-radius: 10px;
+  width: 150px;
+}
