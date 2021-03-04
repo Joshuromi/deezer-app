@@ -3,7 +3,7 @@ import { updatePlayer } from "../../redux/track-player/trackPlayer.action";
 import "./track.styles.css";
 
 const Track = ({ imgUrl, title, preview, updatePlayer }) => {
-  const track = { img: imgUrl, title, preview };
+  const track = { img: imgUrl, title, preview, isPlaying: true };
   return (
     <div className="track-item" onClick={() => updatePlayer(track)}>
       <img src={imgUrl} alt="thumnail" />

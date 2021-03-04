@@ -1,12 +1,17 @@
+.discover {
+  padding-bottom: 100px;
+}
+
 .sub-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 50px 0;
+  padding: 30px 50px 0px;
 }
 
 .sub-title p {
   font-weight: 900;
+  font-size: 14px;
   color: #aaa;
   min-width: 200px;
 }
