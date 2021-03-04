@@ -1,6 +1,7 @@
 .track-item {
   margin-right: 30px;
   text-align: center;
+  cursor: pointer;
 }
 
 .track-item img {

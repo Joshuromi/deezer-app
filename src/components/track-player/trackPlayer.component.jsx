@@ -1,4 +1,4 @@
-import MusicLogo from "../../assest/musical-note.svg";
+import MusicLogo from "../../assest/musiclogo.svg";
 import "./trackPlayer.styles.css";
 
 const TrackPlayer = () => (
@@ -8,7 +8,11 @@ const TrackPlayer = () => (
     </div>
     <div className="controls">
       <i className="fa fa-step-backward" aria-hidden="true"></i>
-      <i className={"fa fa-play-circle"} aria-hidden="true"></i>
+      <i
+        className="fa fa-play-circle"
+        style={{ fontSize: "50px", color: "#574fd8" }}
+        aria-hidden="true"
+      ></i>
       <i className="fa fa-step-forward" aria-hidden="true"></i>
     </div>
     <div className="bar">

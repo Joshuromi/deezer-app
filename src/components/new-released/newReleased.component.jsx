@@ -7,7 +7,7 @@ const NewReleased = ({ data }) => (
       {data.map((item) => (
         <Track
           id={item.id}
-          imgUrl={item.artist.picture_medium}
+          imgUrl={item.album.cover_medium}
           title={item.title}
         />
       ))}
