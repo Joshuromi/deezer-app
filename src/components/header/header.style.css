@@ -18,7 +18,7 @@
   color: white;
   line-height: 1;
   text-align: right;
-  min-width: 350px;
+  /* min-width: 350px; */
   position: absolute;
   right: 20px;
 }
@@ -29,4 +29,22 @@
 
 .header-info h2 {
   font-size: 25px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 200px;
+  }
+
+  .header-info h1 {
+    font-size: 25px;
+  }
+
+  .header-info h2 {
+    font-size: 20px;
+  }
+
+  .hero-img {
+    display: none;
+  }
 }
