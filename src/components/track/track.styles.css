@@ -2,9 +2,11 @@
   margin-right: 30px;
   text-align: center;
   cursor: pointer;
+  width: 100%;
 }
 
 .track-item img {
   border-radius: 10px;
-  width: 150px;
+  height: 150px;
+  width: 100%;
 }

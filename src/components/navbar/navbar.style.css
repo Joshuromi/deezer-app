@@ -4,7 +4,7 @@
 
 .tabs {
   color: white;
-  padding: 25px 0px;
+  padding: 25px 20px;
   cursor: pointer;
 }
 
@@ -13,10 +13,7 @@
 }
 
 .info {
-  display: flex;
-  justify-content: space-between;
   padding: 0 10px;
-  width: fit-content;
   margin: auto;
 }
 

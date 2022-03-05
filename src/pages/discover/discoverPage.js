@@ -2,7 +2,6 @@ import React from "react";
 import NewReleased from "../../components/new-released/newReleased.component";
 import FeaturedPlaylists from "../../components/featured-playlists/featuredPlaylists.component";
 import Browse from "../../components/browse/browse.component";
-import api from "../../services/api";
 import "./discoverPage.css";
 
 class DiscoverPage extends React.Component {
@@ -16,13 +15,31 @@ class DiscoverPage extends React.Component {
   }
 
   componentDidMount() {
-    api.get("/chart").then((response) =>
-      this.setState({
-        tracks: response.data.tracks.data,
-        playlists: response.data.playlists.data,
-        browse: response.data.albums.data,
-      })
-    );
+    const config = {
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS"
+      }
+    };
+
+    fetch("https://api.deezer.com/chart",
+      {
+        method: "GET",
+        config
+      }).then(res => res.json())
+      .then(data => this.setState({
+        tracks: data.tracks.data,
+        playlists: data.playlists.data,
+        browse: data.albums.data,
+      }));
+
+    // api.get("/chart", config).then((response) =>
+    //   this.setState({
+    //     tracks: response.data.tracks.data,
+    //     playlists: response.data.playlists.data,
+    //     browse: response.data.albums.data,
+    //   })
+    // );
   }
 
   render() {

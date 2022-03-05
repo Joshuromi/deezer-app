@@ -1,15 +1,14 @@
 .playlists {
-  overflow: hidden;
-  padding: 0 30px;
+  overflow-x: scroll;
+  width: 100%;
 }
 
 .playlist-row {
   display: flex;
-  height: 230px;
+  width: max-content;
   padding: 20px;
-  overflow-x: scroll;
 }
 
-.playlist-row::-webkit-scrollbar {
+.playlists::-webkit-scrollbar {
   display: none;
 }
