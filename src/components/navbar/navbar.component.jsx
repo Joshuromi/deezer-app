@@ -1,19 +1,23 @@
-import "./navbar.style.css";
+import './navbar.style.css';
 
 const Navbar = () => (
   <div className="navbar">
-    <div className="tabs">
-      <div className="info">
-        <i className="fa fa-headphones" aria-hidden="true"></i>
-        <span>Discover</span>
+    <a href="/">
+      <div className="tabs">
+        <div className="info">
+          <i className="fa fa-headphones" aria-hidden="true"></i>
+          <span>Discover</span>
+        </div>
       </div>
-    </div>
-    <div className="tabs">
-      <div className="info">
-        <i className="fa fa-search" aria-hidden="true"></i>
-        <span>Search</span>
+    </a>
+    <a href="/search">
+      <div className="tabs">
+        <div className="info">
+          <i className="fa fa-search" aria-hidden="true"></i>
+          <span>Search</span>
+        </div>
       </div>
-    </div>
+    </a>
     <div className="tabs">
       <div className="info">
         <i className="fa fa-heart" aria-hidden="true"></i>

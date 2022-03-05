@@ -32,14 +32,6 @@ class DiscoverPage extends React.Component {
         playlists: data.playlists.data,
         browse: data.albums.data,
       }));
-
-    // api.get("/chart", config).then((response) =>
-    //   this.setState({
-    //     tracks: response.data.tracks.data,
-    //     playlists: response.data.playlists.data,
-    //     browse: response.data.albums.data,
-    //   })
-    // );
   }
 
   render() {
